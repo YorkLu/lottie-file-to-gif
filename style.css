@@ -1,0 +1,96 @@
+html, body{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+body, button, input, select, textarea {
+    font: 12px arial;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: normal;
+    font-family: arial;
+}
+
+.main-ctner{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* 超小屏幕（手机，小于 768px） */
+.img-404 {
+    margin-top: 60px;
+    width: 200px;
+    height: auto;
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+    .img-404 {
+        margin-top: 100px;
+        width: 300px;
+        height: auto;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+    .img-404 {
+        margin-top: 60px;
+        width: 400px;
+        height: auto;
+    }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+    /*.img-404 {*/
+        /*margin-top: 60px;*/
+        /*width: 500px;*/
+    /*}*/
+}
+
+.info{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #666;
+}
+
+.bottom-ctner {
+    padding-top: 6px;
+    text-align: center;
+    line-height: 16px;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    bottom: 12px;
+    left: 0;
+    overflow: hidden;
+    color: #999;
+    zoom: 1;
+    margin: 0;
+}
+
+.recordcode a i {
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    margin-right: 6px;
+    background: url(img/icon-police.png) 0 0 no-repeat;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.recordcode a{
+    color: #999;
+    text-decoration-line: none;
+}
