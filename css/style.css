@@ -57,6 +57,12 @@ body, button, input, select, textarea {
     /*}*/
 }
 
+.anima-ctner{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .info{
     font-size: 14px;
     font-weight: bold;
@@ -85,7 +91,7 @@ body, button, input, select, textarea {
     width: 14px;
     height: 16px;
     margin-right: 6px;
-    background: url(img/icon-police.png) 0 0 no-repeat;
+    background: url(../img/icon-police.png) 0 0 no-repeat;
     vertical-align: middle;
     margin-top: -4px;
 }
